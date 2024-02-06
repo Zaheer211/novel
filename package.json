@@ -65,5 +65,8 @@
     "tailwindcss": "^3.3.3",
     "tailwindcss-animate": "^1.0.6",
     "turbo": "^1.9.3"
+  },
+  "engines": {
+    "node": "18.x"
   }
 }
