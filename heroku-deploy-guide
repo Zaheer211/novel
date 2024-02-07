@@ -1,0 +1,10 @@
+
+Dockerfile, .dockerignore files are created for configurations.
+Navigate to novel dir and build docker image for deployment
+heroku container:push web -a novel-demo
+
+After this run
+heroku container:release web
+
+This will deploy updated version
+

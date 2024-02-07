@@ -19,6 +19,9 @@ COPY packages/tsconfig/package.json ./packages/tsconfig/package.json
 # Copy web package.json
 COPY apps/web/package.json ./apps/web/package.json
 
+# Copy apps/web/.env file
+COPY apps/web/.env ./apps/web/.env
+
 # Copy app source
 COPY . .
 

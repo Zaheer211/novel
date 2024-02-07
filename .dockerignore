@@ -8,4 +8,4 @@
 ./apps/*/.next
 ./apps/*/.turbo
 ./apps/*/.gitignore
-./apps/*/.env
+# ./apps/*/.env
